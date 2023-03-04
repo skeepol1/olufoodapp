@@ -188,11 +188,11 @@
   display: flex;
   /* opacity: 1; */
   /* background-color: black; */
-  background-image:  url(img/zura-narimanishvili-ovzLiBLMi0I-unsplash.jpg);
+  background-image:  url(img/ikhsan-baihaqi-dXeBXaThv4U-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter: blur(100px);
+  background-blend-mode: var(--dark);
   
   
 
@@ -214,12 +214,13 @@
 .flex-left h1{
   font-size: 3rem;
   font-weight: 900;
-  color: #000;
+  color: #fff;
   line-height: 100px;
 }
 .flex-left p{
-  color: #000;
+  color: #fff;
   line-height: 50px;
+  font-size: 20px;
 }
 
 
