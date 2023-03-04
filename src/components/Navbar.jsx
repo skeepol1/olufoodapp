@@ -49,7 +49,7 @@ function Navbar() {
                 About
               </NavLink>
               <NavLink
-                to="/products"
+                to="/product"
                 className="nav-item nav-link
                     link-underline link-underline-warning"
               >

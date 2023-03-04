@@ -1,7 +1,7 @@
 import React from 'react'
 import {Nav , Button}  from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone ,faHouse, faEnvelopesBulk } from '@fortawesome/free-solid-svg-icons'
+import { faPhone ,faHouse, faEnvelopesBulk,faEject } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
   return (
@@ -9,11 +9,9 @@ const Footer = () => {
         <div className='footer-head'>
             <div className='footer-headings'>
                 <h4>Adnegs Foods</h4>
-                {/* <li>About</li>
-                <li>Product</li>
-                <li>Contact</li> */}
+               
             
-            <li> <Nav.Link href="/about">ABOUT</Nav.Link> </li>
+            <li><FontAwesomeIcon icon={faEject} /> < Nav.Link href="/about">ABOUT</Nav.Link> </li>
             <li><Nav.Link href="/product">PRODUCTS</Nav.Link> </li>
             <li> <Nav.Link className='bg' href="/contact">CONTACTS</Nav.Link> </li>
                 
@@ -53,7 +51,7 @@ const Footer = () => {
 
 <div className='last-footer'>
     <div className='last-left'>
-        <p>© Adnegs Foods, All Rights Reserved.</p>
+        <p>© olu's Foods, All Rights Reserved.</p>
     </div>
     <div className='last-right'>
     <Nav.Link href="/">HOME</Nav.Link> 
